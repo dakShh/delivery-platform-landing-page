@@ -15,10 +15,20 @@ const About = () => {
           </div>
 
           <div className="flex-1 xl:pr-12">
-            <h2 data-aos="fade-up" data-aos-delay="500" className="h2 mb-10">
+            <h2
+              data-aos="fade-right"
+              data-aos-offset="350"
+              data-aos-delay="500"
+              className="h2 mb-10"
+            >
               {title}
             </h2>
-            <p data-aos="fade-up" data-aos-delay="600" className="max-w-[474px] mx-auto xl:mx-0 ">
+            <p
+              data-aos="fade-left"
+              data-aos-offset="350"
+              data-aos-delay="600"
+              className="max-w-[474px] mx-auto xl:mx-0 "
+            >
               {subTitle}
             </p>
           </div>

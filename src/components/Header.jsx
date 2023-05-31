@@ -25,7 +25,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-x-[120px]">
             <a href="#">
-              <img src={Logo} alt="" width={100} />
+              <img src={Logo} alt="" width={60} />
             </a>
 
             <div className="hidden lg:flex">
@@ -41,7 +41,7 @@ const Header = () => {
             <NavMobile />
           </div>
 
-          <button className=" btn btn-quaternary flex items-center gap-x-[200px] group">
+          <button className=" btn btn-quaternary flex items-center gap-x-[20px] md:gap-x-[200px] group whitespace-nowrap">
             Request Demo
             <BsArrowRight className="text-2xl text-accent-primary group-hover:text-white transition" />
           </button>
