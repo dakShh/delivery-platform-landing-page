@@ -10,6 +10,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 // ** Logo Import
 import Logo from "../assets/images/logo.png";
+import Logo2 from "../assets/images/logo2.png";
 
 const Header = () => {
   const [navMobile, setNavMobile] = useState(false);
@@ -25,7 +26,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-x-[120px]">
             <a href="#">
-              <img src={Logo} alt="" width={60} />
+              <img src={Logo2} alt="" width={60} />
             </a>
 
             <div className="hidden lg:flex">
