@@ -17,7 +17,7 @@ const About = () => {
           <div className="flex-1 xl:pr-12">
             <h2
               data-aos="fade-right"
-              data-aos-offset="350"
+              data-aos-offset="100"
               data-aos-delay="500"
               className="h2 mb-10"
             >
@@ -25,7 +25,7 @@ const About = () => {
             </h2>
             <p
               data-aos="fade-left"
-              data-aos-offset="350"
+              data-aos-offset="100"
               data-aos-delay="600"
               className="max-w-[474px] mx-auto xl:mx-0 "
             >
