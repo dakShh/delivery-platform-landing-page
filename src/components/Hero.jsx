@@ -39,7 +39,14 @@ const Hero = () => {
           </div>
 
           <div className="xl:absolute xl:right-12 xl:bottom-16">
-            <img data-aos="fade-up" data-aos-delay="700" src={image} alt="" width={650} />
+            <img
+              data-aos="fade-up"
+              data-aos-offset="-100"
+              data-aos-delay="700"
+              src={image}
+              alt=""
+              width={650}
+            />
           </div>
         </div>
       </div>
