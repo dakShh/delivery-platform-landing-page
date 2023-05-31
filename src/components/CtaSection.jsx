@@ -10,7 +10,12 @@ const CtaSection = () => {
   const { title, subtitle, btnText1, btnText2 } = ctaData;
 
   return (
-    <section className="py-[75px] xl:py-[150px] border-t-2 bg-neutral-100/50 " data-aos="fade-up">
+    <section
+      className="py-[75px] xl:py-[150px] border-t-2 bg-neutral-100/50 "
+      data-aos-delay="200"
+      data-aos-offset="400"
+      data-aos="fade-up"
+    >
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row justify-between items-center">
           <div className="py-12 xl:py-24 text-center xl:text-left">

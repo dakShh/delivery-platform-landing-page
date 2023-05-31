@@ -8,7 +8,7 @@ import Copyright from "./Copyright";
 const Footer = () => {
   const { logo, address, email, phone, list, list2, socialList } = footerData;
   return (
-    <footer data-aos="fade-up" data-aos-delay="200" className="">
+    <footer data-aos="fade-up" data-aos-offset="300" data-aos-delay="200" className="">
       <div className="container mx-auto py-24">
         <div className="flex flex-col xl:flex-row text-center xl:text-left gap-y-12">
           <div className="w-[45%] mx-auto flex flex-col items-center xl:items-start">
