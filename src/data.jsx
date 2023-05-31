@@ -8,6 +8,7 @@ import Feature4 from "./assets/images/features-4.png";
 import { FaGithub, FaInstagram, FaYoutube } from "react-icons/fa";
 import { BsChatDotsFill } from "react-icons/bs";
 import Logo from "./assets/images/logo.png";
+import Logo2 from "./assets/images/logo2.png";
 
 export const heroData = {
   title: " Order Products Faster Easier",
@@ -91,7 +92,7 @@ export const ctaData = {
 };
 
 export const footerData = {
-  logo: Logo,
+  logo: Logo2,
   address: "Product texas, 234 Broke Shop, Avenue Streen, Block 22",
   email: "info@gmail.com",
   phone: "1-222-345-666",
